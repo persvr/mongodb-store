@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type":"git",
-    "url":"http://github.com/kriszyp/mongodb-store"
+    "url":"http://github.com/persvr/mongodb-store"
   },
   "directories": {
     "lib": "."

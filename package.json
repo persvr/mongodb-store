@@ -1,0 +1,44 @@
+{
+  "name": "mongodb-store",
+  "version": "0.1.0",
+  "author": "Kris Zyp",
+  "email": "kriszyp@gmail.com",
+  "contributors": ["Vladimir Dronnikov <dronnikov@gmail.com>"],
+  "keywords": [
+    "mongodb",
+    "object",
+    "store",
+    "persevere"
+  ],
+  "maintainers": [
+  	{
+  		"name": "Kris Zyp",
+  		"email": "kriszyp@gmail.com"
+  	}
+  ],
+  "licenses": [
+     {
+         "type": "AFLv2.1",
+         "url": "http://trac.dojotoolkit.org/browser/dojo/trunk/LICENSE#L43"
+     },
+     {
+         "type": "BSD",
+         "url": "http://trac.dojotoolkit.org/browser/dojo/trunk/LICENSE#L13"
+     }
+  ],
+  "repository": {
+    "type":"git",
+    "url":"http://github.com/kriszyp/mongodb-store"
+  },
+  "directories": {
+    "lib": "."
+  },
+  "main": "mongodb.js",
+  "dependencies":{
+  	"bson": ">=0.0.4",
+    "mongodb": ">=0.9.8",
+    "rql": ">=0.3.1",
+    "promised-io": ">=0.3.0",
+    "perstore": ">=0.2.1"
+  }
+}

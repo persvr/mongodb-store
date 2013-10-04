@@ -22,7 +22,7 @@ Using
 
 You can create a Mongo store by instantiating it with the collection to use:
 
-	store = require("perstore/store/mongodb").MongoDB({
+	store = require("mongodb-store").MongoDB({
 		collection: collection
 	});
 

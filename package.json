@@ -1,6 +1,6 @@
 {
   "name": "mongodb-store",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Kris Zyp",
   "email": "kriszyp@gmail.com",
   "contributors": ["Vladimir Dronnikov <dronnikov@gmail.com>"],

@@ -188,7 +188,7 @@ module.exports = function(options){
 	}
 
 	var dbOptions = require("perstore/util/settings").database;
-	var url = options.url || dbOptions.url;
+	var url = options.url || dbOptions.url || process.env.MONGOLAB_URI || process.env.MONGOHQ_URL;
 	if(url){
 		console.log(url);
 		mongo.connect(url, function(err, db){
